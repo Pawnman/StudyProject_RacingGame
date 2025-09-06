@@ -1,4 +1,4 @@
-<h1>Rcaing Game</h1>
+<h1>Racing Game</h1>
 <p>Passing the tracks with barriers.</p>
 <ul>
   <li>Windows</li>
