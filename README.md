@@ -22,64 +22,71 @@
 </li>
 </ol>
 
-<h2>Mechanics and features:</h2>
-<h3><u>Core mechanics:</u></h3>
+<h2>List of Mechanics and Features:</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <ul>
-  <li>The player is controlled by pressing the keys W, A, S, D.</li>
-  <li>The player «scares» by pressing the Q key.
-</li>
-  <li>The player moves through the labyrinth without passing through its walls and enemy creatures.
-</li>
-  <li>A player loses (lives) when touching an enemy creature.
-</li>
-  <li>When a player approaches, the static enemy turns towards the player and attempts to attack him.
-</li>
-  <li>A static enemy dies when hit by a «scream».
-</li>
-  <li>A dynamic enemy patrols part of the labyrinth corridors along a given route.
-</li>
-  <li>A dynamic enemy dies when hit by a «scream».
-</li>
-  <li>Pressing the Q key causes the player to emit a «scream» that, when it hits an enemy creature, takes away its life.
-</li>
-    </ul>
-
-<h3><u>Additional-mechanics:</u></h3>
-<ul>
-  <li>The player collects bonuses in the form of signs and receives points for this.
-</li>
-  <li>Upon reaching the finish line, the player is transferred to the next level.
-
-  <li><ul>
-    <li>Level 1 – all enemies are static and to pass the level you need to «scare» them.
-</li>
-    <li>Level 2 (stealth) – all enemies are dynamic and move around the labyrinth, but you cannot attack them, you can only avoid them in other parts of the labyrinth.
-</li>
-    <li>Level 3 – static and dynamic enemies that can be «scared».
-</li>
- </ul>   
-
-  <li>The dynamic enemy does not move along a set path, but between certain points in a random order, independently choosing the shortest path.
-</li>
-  <li>When the player is at close range, the dynamic enemy begins to pursue him, deviating from its route.
-</li>
-  <li>When the player is very close to a dynamic enemy, the enemy will begin to attack him.
-</li>
-  <li>Score points for «scaring» an enemy creature.
-</li>
-    </ul>
-
-<h3><u>Juice mechanics:</u></h3>
-<ul>
-  <li>The player cannot complete the level until he collects all the bonuses and/or «scares» all the enemy creatures.
-</li>
-  <li>Moving/pushing objects in a maze is similar to the game «Sokoban».
-</li>
-  <li>Adding objects that can be moved around the maze.
-</li>
-  <li>Adding a new level that features object movement mechanics.
-</li>
+  <li>View: Third-person</li>
+  <li>Platform: PC</li>
+  <li>Controls: Keyboard (W, A, S, D or Arrow Keys) and Mouse (for menu)</li>
+  <li>Levels: 3 levels</li>
+  <li>Difficulty: Speed increases with each subsequent level</li>
+  <li>Movement Zones: Road</li>
+  <li>Speed Control: Not available; speed is fixed for each level</li>
+  <li>Audio: Background music is present</li>
+  <li>Visuals: Simplified. Includes a road, obstacles, and a simplified landscape – a green background around the road simulating grass, a finish line.</li>
+  <li>Damage Visualization: Yes</li>
 </ul>
+
+<p></p>
+<figure>
+   <img src="./imgs/img_1.jpg" width="400"/>
+   <figcaption>Picture 1 - Level 1</figcaption>
+  </figure>
+
+<p></p>
+
+<p></p>
+<figure>
+   <img src="./imgs/img_2.jpg" width="400"/>
+   <figcaption>Picture 2 - Level 2</figcaption>
+  </figure>
+
+<p></p>
+
+<p></p>
+<figure>
+   <img src="./imgs/img_3.jpg" width="400"/>
+   <figcaption>Picture 3 - Level 3</figcaption>
+  </figure>
+
+<p></p>
+
+
+
+
+
+
+
+
+
+
+
+
 
 <h2>Build:</h2>
 <p>The project build can be downloaded from the following link:</p>
